@@ -8,7 +8,7 @@ FairShare
 
 # What's it all about?
 
-FairShare is a mindset. It is project driven, results focused, and designed to produce repeatable results. Ownership of the final FairShare product rests in the hands of its contributors.
+FairShare is a mindset. It is project driven, outcome focused, and designed to produce repeatable results. Ownership of the final FairShare product rests in the hands of its contributors.
 
 ## It's about ownership
 
@@ -44,9 +44,6 @@ With each completed FairShare project, whether successful or not, comes a comple
 
 With comprehensive record-keeping comes an opportunity to simplify processes and correct mistakes for when the next FairShare project is launched.
 
-## It's about organization
-
-## It's conversational
 
 
 
