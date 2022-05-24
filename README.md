@@ -3,6 +3,12 @@ BSCC static site
 
 BSCC main site built with 11ty.
 
+# Setup
+
+```
+npm install
+```
+
 # Development
 
 Server:
