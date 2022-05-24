@@ -20,7 +20,7 @@ npm start
 Build project:
 
 ```
-npm build
+npm run build
 ```
 
 # Production
