@@ -8,19 +8,23 @@ FairShare
 
 # What's it all about?
 
-FairShare is a mindset. It is project driven, outcome focused, and designed to produce repeatable results. Ownership of the final FairShare product rests in the hands of its contributors.
+FairShare sets new expectations about work and collaboration.
+
+It is project driven, outcome focused, and designed to produce repeatable results.
+
+Ownership of the final FairShare product rests in the hands of its contributors.
 
 ## It's about ownership
 
 FairShare, at its core, is about the opportunity to keep a piece of what you put in.
 
-When you contribute to a FairShare project - whether with money or time - you are entitled to a share equal with the value contributed.
+When you contribute to a FairShare project - whether with money or time - you may claim a share equal with the value contributed.
 
 With your share of a project comes rights to its sale and marketing. You can even permanently sell your shares.
 
 ## It's about collaboration
 
-FairShares provide a powerful voice. As a FairShare holder, you are entitled to vote on matters critical to project completion. You may also delegate authority to the elected board of directors.
+FairShares provide a powerful voice. As a FairShare holder, you are entitled to vote on how to see a project through to completion. You may also delegate authority to an elected board of directors.
 
 FairShare projects set new expectations of organizations and how contributors collaborate.
 
