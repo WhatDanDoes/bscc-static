@@ -14,4 +14,4 @@ jobs:
     - name: Checkout Project
       uses: actions/checkout@v1
     - name: Deploy with rsync
-      run: rsync -avz public ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.PUBLIC_DIR }}
+      run: rsync -avz public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.PUBLIC_DIR }}
