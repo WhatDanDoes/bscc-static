@@ -25,8 +25,10 @@ No matter what happens between client and contractor, smart contracts ensure a p
 
 With a client's budget locked into a smart contract, the contractor knows the client is able to pay. If the contractor fails to deliver at a critical checkpoint, the client has the option to cancel the contract and withdraw any budget remaining.
 
-# It's easier to trust
+# Trust comes easier
 
-Smart contracts are permanently recorded on the blockchain. This allows both client and contractor to assess risk by examining the reputation built by their respective contractual track records. Once the terms of a contract are decided, both client and contractor are assured that their interests are protected. The client's investment is protected while ensuring the contractor gets paid for work completed.
+Smart contracts are permanently recorded on the blockchain. This allows both client and contractor to assess risk by examining their respective contractual track records. Once the terms of a contract are decided, both client and contractor are assured that their interests are protected. The client's investment is locked until the contractor delivers while ensuring the contractor gets paid for work already completed.
 
+# Smart contracts can work for you
 
+<a href="mailto:daniel@bscc.dev">Reach out</a> and tell me about your business.
