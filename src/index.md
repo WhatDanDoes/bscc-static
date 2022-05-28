@@ -3,16 +3,30 @@ title: 'BSCC'
 layout: 'base.njk'
 ---
 
-# Sometimes people say blockchain is _trustless_
+# Some say blockchain is _trustless_
 
-This is not true. There is a tremendous amount of trust involved when in entering into a contract. The client has to trust that the contractor will deliver and the contractor trusts that the client will be able to pay when the job is complete. Should either party fall short of their commitments, all sides must trust that the courts will resolve the dispute fairly.
+This is not true.
+
+A tremendous amount of trust is required when entering into any business relationship:
+
+- The client trusts that the contractor will deliver.
+- The contractor trusts that the client will be able to pay when the job is done.
+- If there is a dispute, everyone must trust that the courts will resolve it fairly.
 
 # Blockchain _cannot_ replace trust
 
-Good business will always be built upon reputation and relationships. Blockchain simply offers another way to build trust. They ensure a predictable outcome no matter what happens over the course of a contract. Clients can trust by the reputation built by successful contractors, and contractors can trust that they will get paid for work completed.
+Successful businesses will always be built upon reputation and personal relationships.
 
-# A new way to build trust
+No technology will change this. Blockchain simply offers a new way.
 
-This is all accomplished with _smart contracts_, which are permanentely recorded on the blockchain. The client's budget is locked into a smart contract. The contractor knows the client can pay. If the contractor fails to deliver at a critical checkpoint, the client has the option to cancel the contract and withdraw any budget remaining.
+# Smart contracts build trust
+
+No matter what happens between client and contractor, smart contracts ensure a predictable outcome.
+
+With a client's budget locked into a smart contract, the contractor knows the client is able to pay. If the contractor fails to deliver at a critical checkpoint, the client has the option to cancel the contract and withdraw any budget remaining.
+
+# It's easier to trust
+
+Smart contracts are permanently recorded on the blockchain. This allows both client and contractor to assess risk by examining the reputation built by their respective contractual track records. Once the terms of a contract are decided, both client and contractor are assured that their interests are protected. The client's investment is protected while ensuring the contractor gets paid for work completed.
 
 
