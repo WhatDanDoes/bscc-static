@@ -31,4 +31,4 @@ Smart contracts are permanently recorded on the blockchain. This allows both cli
 
 # Smart contracts can work for you
 
-<a href="mailto:daniel@bscc.dev">Reach out</a> and tell me about your business.
+<a href="mailto:daniel@bscc.dev">Let's talk</a> about how smart contracts can build your business.
