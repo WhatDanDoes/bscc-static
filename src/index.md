@@ -13,7 +13,7 @@ layout: 'base.njk'
 
   Delivered fully-tested and on time
 
-  <h3><a href="mailto:daniel@bscc.dev">Contact</a></h3>
+  <h3><a href="mailto:daniel@bscc.dev">Let's talk...</a></h3>
 
 </center>
 
