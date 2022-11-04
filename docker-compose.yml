@@ -5,12 +5,24 @@ services:
     restart: on-failure
     environment:
       - VIRTUAL_HOST=bscc.dev
+      - REDIRECT=bscc.dev
       - LETSENCRYPT_HOST=bscc.dev
       - LETSENCRYPT_EMAIL=daniel@example.com
     expose:
       - 80
     volumes:
       - ./public:/usr/share/nginx/html
+
+  # 2022-11-4 https://github.com/nginx-proxy/nginx-proxy/issues/1204#issuecomment-549410286
+  redirect:
+    image: cusspvz/redirect
+    restart: unless-stopped
+    environment:
+      VIRTUAL_HOST: www.bscc.dev
+      HTTPS_METHOD: noredirect
+      LETSENCRYPT_HOST: www.bscc.dev
+      REDIRECT: https://bscc.dev
+
 networks:
   default:
     external:
