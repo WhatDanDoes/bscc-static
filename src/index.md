@@ -9,9 +9,11 @@ layout: 'base.njk'
 
   From concept to deployment
 
-  UX-centric
+  Audience focused, UX-centric
 
   Disciplined test-driven research and product development
+
+  Full-stack application management
 
   <h3><a href="mailto:daniel@bscc.dev">Let's talk...</a></h3>
 
