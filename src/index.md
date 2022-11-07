@@ -5,13 +5,13 @@ layout: 'base.njk'
 
 <center>
 
-  <h2>Full-Stack General Web Contracting Services</h2>
+  <h2>General Web Contracting Services</h2>
 
   From concept to deployment
 
-  Software solutions for organizational optimization
+  UX-centric
 
-  Delivered fully-tested and on time
+  Disciplined test-driven research and product development
 
   <h3><a href="mailto:daniel@bscc.dev">Let's talk...</a></h3>
 
