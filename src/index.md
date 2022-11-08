@@ -5,13 +5,11 @@ layout: 'base.njk'
 
 <center>
 
-  <h2>General Web Contracting Services</h2>
-
-  From concept to deployment
+  <h2>Disciplined test-driven research and product development</h2>
 
   Audience focused, UX-centric
 
-  Disciplined test-driven research and product development
+  From concept to deployment
 
   Full-stack application management
 
