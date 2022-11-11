@@ -41,8 +41,8 @@ Can researchers be satisified with data collection, or do they require the direc
 
 There are no shortage of wearable computational devices from which to choose. A typical Google search produces no shortage of opinion on which device is best for the job:
 
-- https://www.superwatches.com/health-tracking-smartwatches/
-- https://digitalhealthcentral.com/2022/02/16/best-smartwatch-for-health-monitoring/
+- [https://www.superwatches.com/health-tracking-smartwatches/](https://www.superwatches.com/health-tracking-smartwatches/)
+- [https://digitalhealthcentral.com/2022/02/16/best-smartwatch-for-health-monitoring/](https://digitalhealthcentral.com/2022/02/16/best-smartwatch-for-health-monitoring/)
 
 Choosing the best tool requires a clear understanding of the researchers' goals and the context in which the research takes place. Without that, only one meaningful conclusion can be drawn: there is proven commercial value in collecting, possessing, and marketing data to the exclusion of intermediary stakeholders.
 
