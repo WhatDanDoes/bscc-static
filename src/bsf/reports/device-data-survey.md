@@ -53,24 +53,47 @@ I'm not certain that this is a complete list. I am also uncertain as to whether 
 
 # Common Health-Related Data Points
 
-These are eight common health monitoring data points offered by smart watches: 
+These are some common health monitoring data points offered by smart watches: 
 
 - Heart Rate
+- Steps
+- Intensity Minutes
+- Stress
+  - Determined through heart-rate variability.
+- Respiration
 - Sleep Quality
+  - Based on several factors including snoring, light patterns, and heart rate
 - Body Composition
+  - Muscle to fat ratio determined using bioimpedence 
 - Active Minutes
 - Menstrual Health
+  - Aided by enabling the subject to track _symptoms_.
 - Cadence (for Runners)
 - VO2 Max (for Endurance Training)
+  - A measure of cardio-respiratory fitness.
 - Calories Burned for Overall Fitness
+- Pulse
+- Body Battery (proprietary Garmin?)
 
-Sources: [1](https://www.makeuseof.com/health-data-points-pay-attention-fitness-tracker/).
+Sources: [1](https://www.makeuseof.com/health-data-points-pay-attention-fitness-tracker/), [2](https://developer.garmin.com/gc-developer-program/health-api/).
 
+# What Can be Determined?
+
+- Gait Analysis
+  - Is the subject walking steadily?
+- Atrial fibrillation
+  - Possible indicator of an impending stroke.
+- Infection
+  - Metabolic rate changes can potentially detect cold virus infection.
+- Sleep Apnea
+- Respiratory Issues
+- Diabetes
+
+Sources: [1](https://www.cbsnews.com/news/self-tracking-your-health-data-wearables/), [2](https://www.popsci.com/story/diy/health-conditions-smartwatch/).
 
 # How Much Data do they Collect?
 
 Potentially 2 to 5 GB per day.
-
 
 Sources: [1](https://medium.com/xnewdata/data-generated-by-wearables-48da42a88263).
 
