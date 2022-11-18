@@ -54,7 +54,7 @@ It cannot be assumed that this is a complete list.
 
 # Common Health-Related Data Points
 
-The sensors listed in the previous section are used to collect data. These data points are collected by individual sensors, or combinations thereof. The following data points pertain directly to health and fitness: 
+The sensors listed in the previous section are used to collect data. These data points are collected by individual sensors, or combinations thereof. The following data points pertain directly to health and fitness:
 
 - Heart Rate
 - Steps
@@ -81,7 +81,7 @@ Sources: [1](https://www.makeuseof.com/health-data-points-pay-attention-fitness-
 
 # What Can be Determined?
 
-Manufacturers and marketers would have you believe smartwatches can improve your overall health by detecting potential problems before they become serious. Others, including medical _professionals_ may dispute these claims, though they are likely concerned with the device's accuracy and the subjects own ability to make a diagnoses. What follows is a short list of determinations that are conceivably possible by analyzing data collected by a smartwatch: 
+Manufacturers and marketers would have you believe smartwatches can improve your overall health by detecting potential problems before they become serious. Others, including medical _professionals_ may dispute these claims, though they are likely concerned with the device's accuracy and the subjects own ability to make a diagnoses. What follows is a short list of determinations that are conceivably possible by analyzing data collected by a smartwatch:
 
 - Gait Analysis
   - Is the subject walking steadily?
@@ -97,15 +97,20 @@ Sources: [1](https://www.cbsnews.com/news/self-tracking-your-health-data-wearabl
 
 # How Much Data do they Collect?
 
-Potentially 2 to 5 GB per day.
+This, of course, depends on the device, the number of sensors it contains, and the demands of the subject. According to some estimates, a smartwatch could potentially generate 2 to 5 GB of data per day.
 
-Sources: [1](https://medium.com/xnewdata/data-generated-by-wearables-48da42a88263).
+Sources: [1](https://medium.com/xnewdata/data-generated-by-wearables-48da42a88263), [2](https://medium.com/xnewdata/data-generated-by-wearables-48da42a88263#:~:text=3%20%E2%80%94%20DATA%20GENERATED%20BY%20WEARABLES&text=The%20most%20common%20is%20the,data%20about%20a%20person's%20activities.).
 
+# Which Device is Most Private?
 
-# Which is Most Private?
+Privacy, especially concerning health data, is a top priority. With privacy in mind, these are the questions to ask:
 
-https://threadcurve.com/smartwatch-privacy-the-best-and-worst/
+- Is device data being sent to a remote location?
+- Where is the device data being sent?
+- Where is data being stored?
+- How is data being stored remotely?
+- How is data being stored locally?
+- Who has access to the subject's data?
 
-https://phys.org/news/2015-01-wearable-sensors-lots-datanow.html
+Sources: [1](https://threadcurve.com/smartwatch-privacy-the-best-and-worst/), [2](https://phys.org/news/2015-01-wearable-sensors-lots-datanow.html), [3](https://www.researchgate.net/publication/300651368_Health_Information_Tailoring_and_Data_Privacy_in_a_Smart_Watch_as_a_Preventive_Health_Tool).
 
-https://www.researchgate.net/publication/300651368_Health_Information_Tailoring_and_Data_Privacy_in_a_Smart_Watch_as_a_Preventive_Health_Tool

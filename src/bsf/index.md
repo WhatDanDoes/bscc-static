@@ -9,6 +9,6 @@ layout: 'report.njk'
 
 {% excerpt report %}
 
-[Continue reading...]({{ report.url }})
+[Cont...]({{ report.url }})
 
 {% endfor %}
