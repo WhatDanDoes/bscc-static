@@ -3,21 +3,22 @@ title: 'Device Data Point Survey'
 layout: 'report.njk'
 ---
 
+This document sets out to determine what data can be collected by a smartwatch. It provides a survey of common sensors integrated into contemporary devices, the health/fitness-specific data points they monitor, and some examples of determinations made through analyzing this data.
 
 # Common Smartwatch Sensors
 
-These are the electronic devices used to collect subject data:
+Different devices contain different sensors. Common smartwatches will contain some combination of the following:
 
 - Accelerometer
   - Tracks the subject's movement in relation to the surface of the earth.
 - Gyroscope
-  - Device orientation in 3D space. Detects gestures and wrist movements. 
+  - Device orientation in 3D space. Detects gestures and wrist movements.
 - Magnetometer
   - Direction the subject is facing. A compass.
 - Barometric Pressure Sensor
-  - Measures the pressure of the earth's atmosphere as experienced by the subject
+  - Measures the pressure of the earth's atmosphere.
 - Altimeter
-  - Determines changes in the subjects height. E.g., as with climbing or descening stairs.
+  - Determines changes in the subject's elevation. E.g., as with climbing or descending stairs.
 - Ambient Temperature Sensor
   - Senses the temperature of the subject's environment.
 - Skin Temperature Sensor
@@ -31,15 +32,15 @@ These are the electronic devices used to collect subject data:
 - GPS
   - Determines the subject's position on the earth.
 - Ambient Light Sensor
-  - Typically used to adjust display brightness
+  - Typically used to adjust display brightness.
 - Proximity Sensor
   - Allows the smartwatch to know the subject is wearing the watch. Typically used to conserve battery power.
 - ECG Sensor
-  - Detects electrical impulses emitted by the subject's heart
+  - Detects electrical impulses emitted by the subject's heart.
 - Electrodermal Activity Sensor
   - Used in combination with other sensors (e.g., ECG, Skin temperature) to measure the subject's stress levels.
 - UV Sensor
-  - Measure's ultra violet radiation from the sun
+  - Measure's ultra violet radiation from the sun.
 - Bioimpedance Sensor
   - Determines respiratory rate, sleep quality, et al, by measuring electrical resistance in the subject's skin.
 - Camera
@@ -49,11 +50,11 @@ These are the electronic devices used to collect subject data:
 
 Sources: [1](https://www.azosensors.com/article.aspx?ArticleID=2614), [2](https://www.cashify.in/explained-sensors-in-smartwatch), [3](https://timesofindia.indiatimes.com/gadgets-news/16-sensors-that-are-present-inside-fitness-bands-and-smartwatches-that-you-need-to-know/articleshow/78033264.cms), [4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5038811/).
 
-I'm not certain that this is a complete list. I am also uncertain as to whether some of the sensors may perform the same function (e.g., bioimpedance and electrodermal sensors).
+It cannot be assumed that this is a complete list.
 
 # Common Health-Related Data Points
 
-These are some common health monitoring data points offered by smart watches: 
+The sensors listed in the previous section are used to collect data. These data points are collected by individual sensors, or combinations thereof. The following data points pertain directly to health and fitness: 
 
 - Heart Rate
 - Steps
@@ -64,20 +65,23 @@ These are some common health monitoring data points offered by smart watches:
 - Sleep Quality
   - Based on several factors including snoring, light patterns, and heart rate
 - Body Composition
-  - Muscle to fat ratio determined using bioimpedence 
+  - Muscle to fat ratio determined using bioimpedence
 - Active Minutes
 - Menstrual Health
-  - Aided by enabling the subject to track _symptoms_.
-- Cadence (for Runners)
-- VO2 Max (for Endurance Training)
+  - Informed by the subject herself, who uses the device to track _symptoms_.
+- Cadence (for runners)
+- VO2 Max (for endurance training)
   - A measure of cardio-respiratory fitness.
 - Calories Burned for Overall Fitness
 - Pulse
-- Body Battery (proprietary Garmin?)
+- Body Battery
+  - This was listed as a data point offered by Garmin devices. It may be proprietary.
 
 Sources: [1](https://www.makeuseof.com/health-data-points-pay-attention-fitness-tracker/), [2](https://developer.garmin.com/gc-developer-program/health-api/).
 
 # What Can be Determined?
+
+Manufacturers and marketers would have you believe smartwatches can improve your overall health by detecting potential problems before they become serious. Others, including medical _professionals_ may dispute these claims, though they are likely concerned with the device's accuracy and the subjects own ability to make a diagnoses. What follows is a short list of determinations that are conceivably possible by analyzing data collected by a smartwatch: 
 
 - Gait Analysis
   - Is the subject walking steadily?
@@ -89,7 +93,7 @@ Sources: [1](https://www.makeuseof.com/health-data-points-pay-attention-fitness-
 - Respiratory Issues
 - Diabetes
 
-Sources: [1](https://www.cbsnews.com/news/self-tracking-your-health-data-wearables/), [2](https://www.popsci.com/story/diy/health-conditions-smartwatch/).
+Sources: [1](https://www.cbsnews.com/news/self-tracking-your-health-data-wearables/), [2](https://www.popsci.com/story/diy/health-conditions-smartwatch/), [3](https://www.goodrx.com/health-topic/heart/smartwatch-heart-health).
 
 # How Much Data do they Collect?
 
