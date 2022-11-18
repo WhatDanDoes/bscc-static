@@ -3,7 +3,7 @@ title: 'Device Data Point Survey'
 layout: 'report.njk'
 ---
 
-This document sets out to determine what data can be collected by a smartwatch. It provides a survey of common sensors integrated into contemporary devices, the health/fitness-specific data points they monitor, and some examples of determinations made through analyzing this data.
+This document sets out to determine what data can be collected by a smartwatch. It provides a survey of common sensors integrated into contemporary devices, the health/fitness-specific data points they monitor, and some examples of determinations made through analyzing this data. It also speaks to the quantity of data collected and poses privacy-related questions to ask about each device.
 
 # Common Smartwatch Sensors
 
@@ -97,7 +97,7 @@ Sources: [1](https://www.cbsnews.com/news/self-tracking-your-health-data-wearabl
 
 # How Much Data do they Collect?
 
-This, of course, depends on the device, the number of sensors it contains, and the demands of the subject. According to some estimates, a smartwatch could potentially generate 2 to 5 GB of data per day.
+This, of course, depends on the device, the number of sensors it contains, and the demands of the subject. According to some estimates, a smartwatch can potentially generate 2 to 5 GB of data per day.
 
 Sources: [1](https://medium.com/xnewdata/data-generated-by-wearables-48da42a88263), [2](https://medium.com/xnewdata/data-generated-by-wearables-48da42a88263#:~:text=3%20%E2%80%94%20DATA%20GENERATED%20BY%20WEARABLES&text=The%20most%20common%20is%20the,data%20about%20a%20person's%20activities.).
 
