@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Data Point Survey - BSCC</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>
+          <a href="/">BSCC</a> > <a href="/bsf">BSF</a>
+        </h1>
+      </nav>
+      <h1>Device Data Point Survey</h1>
+    </header>
+    <main>
+      <article>
+        <p>This document sets out to determine what data can be collected by a smartwatch. It provides a survey of common sensors integrated into contemporary devices, the health/fitness-specific data points they monitor, and some examples of determinations made through analyzing this data. It also speaks to the quantity of data collected and poses privacy-related questions to ask about each device.</p>
+<h1>Common Smartwatch Sensors</h1>
+<p>Different devices contain different sensors. Common smartwatches will contain some combination of the following:</p>
+<ul>
+<li>Accelerometer
+<ul>
+<li>Tracks the subject's movement in relation to the surface of the earth.</li>
+</ul>
+</li>
+<li>Gyroscope
+<ul>
+<li>Device orientation in 3D space. Detects gestures and wrist movements.</li>
+</ul>
+</li>
+<li>Magnetometer
+<ul>
+<li>Direction the subject is facing. A compass.</li>
+</ul>
+</li>
+<li>Barometric Pressure Sensor
+<ul>
+<li>Measures the pressure of the earth's atmosphere.</li>
+</ul>
+</li>
+<li>Altimeter
+<ul>
+<li>Determines changes in the subject's elevation. E.g., as with climbing or descending stairs.</li>
+</ul>
+</li>
+<li>Ambient Temperature Sensor
+<ul>
+<li>Senses the temperature of the subject's environment.</li>
+</ul>
+</li>
+<li>Skin Temperature Sensor
+<ul>
+<li>Senses the subject's body temperature.</li>
+</ul>
+</li>
+<li>Heart Rate Monitor
+<ul>
+<li>How fast is the subject's heart beating?</li>
+</ul>
+</li>
+<li>SpO2, Oximetry Sensor
+<ul>
+<li>Determines the concentration of oxygen in the subject's blood.</li>
+</ul>
+</li>
+<li>Skin Conductance Sensor
+<ul>
+<li>Used to calculate calories burned.</li>
+</ul>
+</li>
+<li>GPS
+<ul>
+<li>Determines the subject's position on the earth.</li>
+</ul>
+</li>
+<li>Ambient Light Sensor
+<ul>
+<li>Typically used to adjust display brightness.</li>
+</ul>
+</li>
+<li>Proximity Sensor
+<ul>
+<li>Allows the smartwatch to know the subject is wearing the watch. Typically used to conserve battery power.</li>
+</ul>
+</li>
+<li>ECG Sensor
+<ul>
+<li>Detects electrical impulses emitted by the subject's heart.</li>
+</ul>
+</li>
+<li>Electrodermal Activity Sensor
+<ul>
+<li>Used in combination with other sensors (e.g., ECG, Skin temperature) to measure the subject's stress levels.</li>
+</ul>
+</li>
+<li>UV Sensor
+<ul>
+<li>Measure's ultra violet radiation from the sun.</li>
+</ul>
+</li>
+<li>Bioimpedance Sensor
+<ul>
+<li>Determines respiratory rate, sleep quality, et al, by measuring electrical resistance in the subject's skin.</li>
+</ul>
+</li>
+<li>Camera
+<ul>
+<li>Record video and still images.</li>
+</ul>
+</li>
+<li>Microphone
+<ul>
+<li>Record audio data.</li>
+</ul>
+</li>
+</ul>
+<p>Sources: <a href="https://www.azosensors.com/article.aspx?ArticleID=2614">1</a>, <a href="https://www.cashify.in/explained-sensors-in-smartwatch">2</a>, <a href="https://timesofindia.indiatimes.com/gadgets-news/16-sensors-that-are-present-inside-fitness-bands-and-smartwatches-that-you-need-to-know/articleshow/78033264.cms">3</a>, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5038811/">4</a>.</p>
+<p>It cannot be assumed that this is a complete list.</p>
+<h1>Common Health-Related Data Points</h1>
+<p>The sensors listed in the previous section are used to collect data. These data points are collected by individual sensors, or combinations thereof. The following data points pertain directly to health and fitness:</p>
+<ul>
+<li>Heart Rate</li>
+<li>Steps</li>
+<li>Intensity Minutes</li>
+<li>Stress
+<ul>
+<li>Determined through heart-rate variability.</li>
+</ul>
+</li>
+<li>Respiration</li>
+<li>Sleep Quality
+<ul>
+<li>Based on several factors including snoring, light patterns, and heart rate</li>
+</ul>
+</li>
+<li>Body Composition
+<ul>
+<li>Muscle to fat ratio determined using bioimpedence</li>
+</ul>
+</li>
+<li>Active Minutes</li>
+<li>Menstrual Health
+<ul>
+<li>Informed by the subject herself, who uses the device to track <em>symptoms</em>.</li>
+</ul>
+</li>
+<li>Cadence (for runners)</li>
+<li>VO2 Max (for endurance training)
+<ul>
+<li>A measure of cardio-respiratory fitness.</li>
+</ul>
+</li>
+<li>Calories Burned for Overall Fitness</li>
+<li>Pulse</li>
+<li>Body Battery
+<ul>
+<li>This was listed as a data point offered by Garmin devices. It may be proprietary.</li>
+</ul>
+</li>
+</ul>
+<p>Sources: <a href="https://www.makeuseof.com/health-data-points-pay-attention-fitness-tracker/">1</a>, <a href="https://developer.garmin.com/gc-developer-program/health-api/">2</a>.</p>
+<h1>What Can be Determined?</h1>
+<p>Manufacturers and marketers would have you believe smartwatches can improve your overall health by detecting potential problems before they become serious. Others, including medical <em>professionals</em> may dispute these claims, though they are likely concerned with the device's accuracy and the subjects own ability to make a diagnoses. What follows is a short list of determinations that are conceivably possible by analyzing data collected by a smartwatch:</p>
+<ul>
+<li>Gait Analysis
+<ul>
+<li>Is the subject walking steadily?</li>
+</ul>
+</li>
+<li>Atrial fibrillation
+<ul>
+<li>Possible indicator of an impending stroke.</li>
+</ul>
+</li>
+<li>Infection
+<ul>
+<li>Metabolic rate changes can potentially detect cold virus infection.</li>
+</ul>
+</li>
+<li>Sleep Apnea</li>
+<li>Respiratory Issues</li>
+<li>Diabetes</li>
+</ul>
+<p>Sources: <a href="https://www.cbsnews.com/news/self-tracking-your-health-data-wearables/">1</a>, <a href="https://www.popsci.com/story/diy/health-conditions-smartwatch/">2</a>, <a href="https://www.goodrx.com/health-topic/heart/smartwatch-heart-health">3</a>.</p>
+<h1>How Much Data do they Collect?</h1>
+<p>This, of course, depends on the device, the number of sensors it contains, and the demands of the subject. According to some estimates, a smartwatch can potentially generate 2 to 5 GB of data per day.</p>
+<p>Sources: <a href="https://medium.com/xnewdata/data-generated-by-wearables-48da42a88263">1</a>, <a href="https://medium.com/xnewdata/data-generated-by-wearables-48da42a88263#:~:text=3%20%E2%80%94%20DATA%20GENERATED%20BY%20WEARABLES&amp;text=The%20most%20common%20is%20the,data%20about%20a%20person's%20activities.">2</a>.</p>
+<h1>Which Device is Most Private?</h1>
+<p>Privacy, especially concerning health data, is a top priority. With privacy in mind, these are the questions to ask:</p>
+<ul>
+<li>Is device data being sent to a remote location?</li>
+<li>Where is the device data being sent?</li>
+<li>Where is data being stored?</li>
+<li>How is data being stored remotely?</li>
+<li>How is data being stored locally?</li>
+<li>Who has access to the subject's data?</li>
+</ul>
+<p>Sources: <a href="https://threadcurve.com/smartwatch-privacy-the-best-and-worst/">1</a>, <a href="https://phys.org/news/2015-01-wearable-sensors-lots-datanow.html">2</a>, <a href="https://www.researchgate.net/publication/300651368_Health_Information_Tailoring_and_Data_Privacy_in_a_Smart_Watch_as_a_Preventive_Health_Tool">3</a>.</p>
+
+      </article>
+    </main>
+  </body>
+</html>
