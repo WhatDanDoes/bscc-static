@@ -9,6 +9,13 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(blogTools);
 
+  // Put sections in correct order
+  eleventyConfig.addCollection('orderedSections', function (collection) {
+    return collection.getFilteredByTag('sections').sort((a, b) => {
+      return a.data.order - b.data.order;
+    });
+  });
+
   return {
     dir: {
       input: 'src',
