@@ -1,0 +1,26 @@
+
+html, body {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+@font-face {
+  font-family: 'Odibee Sans'; 
+  src: url('../fonts/OdibeeSans-Regular.ttf') format('truetype');
+} 
+
+footer, header, main {
+  margin: 0 auto;
+  max-width: var(--width-content);
+  padding: 3rem 1rem;
+}
+
+header section h1 {
+  font-family: 'Odibee Sans', cursive;
+}
