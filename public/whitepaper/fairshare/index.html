@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BSCC</title>
-    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/splash.css">
   </head>
   <body>
-    <header>
+    <header class="hero">
       <nav>
-        <h1>
-          <a href="/">
-            BSCC
-          </a>
-        </h1>
+        <a class="logo" href="/">
+          BSCC
+        </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul>
+          <li><a href="#contact">Contact</a><li>
+        </ul>
       </nav>
-      <h1>Bidulock Smart Contracts Corporation</h1>
+      <section>
+        <h1>BSCC</h1>
+        <h2>Bidulock Smart Contracts Corporation</h2>
+      </section>
     </header>
     <main>
       <article>
@@ -46,5 +53,11 @@
 
       </article>
     </main>
+    <script>
+      var links = document.querySelectorAll("header nav ul li");
+      for (var i = 0; i < links.length; i++) {
+        links[i].addEventListener('click', () => document.getElementById("menu-btn").checked = false, false);
+      }
+    </script>
   </body>
 </html>
