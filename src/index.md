@@ -13,7 +13,7 @@ layout: 'base.njk'
 
   Full-stack application management
 
-  <h3><a href="mailto:daniel@bscc.dev">Let's talk...</a></h3>
+  <h3><a name="contact" href="mailto:daniel@bscc.dev">Let's talk...</a></h3>
 
 </center>
 
