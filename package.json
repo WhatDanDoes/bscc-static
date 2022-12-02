@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy",
+    "start": "NODE_ENV=development eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "dev:build": "NODE_ENV=development npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,5 +15,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
     "eleventy-plugin-blog-tools": "^0.4.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
   }
 }
