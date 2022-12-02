@@ -4,10 +4,9 @@ services:
     image: nginx
     restart: on-failure
     environment:
-      - VIRTUAL_HOST=bscc.dev
-      - REDIRECT=bscc.dev
-      - LETSENCRYPT_HOST=bscc.dev
-      - LETSENCRYPT_EMAIL=daniel@example.com
+      - VIRTUAL_HOST=$VIRTUAL_HOST
+      - LETSENCRYPT_HOST=$VIRTUAL_HOST
+      - LETSENCRYPT_EMAIL=$LETSENCRYPT_EMAIL
     expose:
       - 80
     volumes:
@@ -18,10 +17,10 @@ services:
     image: cusspvz/redirect
     restart: unless-stopped
     environment:
-      VIRTUAL_HOST: www.bscc.dev
+      VIRTUAL_HOST: "www.${VIRTUAL_HOST}"
       HTTPS_METHOD: noredirect
-      LETSENCRYPT_HOST: www.bscc.dev
-      REDIRECT: https://bscc.dev
+      LETSENCRYPT_HOST: "www.${VIRTUAL_HOST}"
+      REDIRECT: "https://${VIRTUAL_HOST}"
 
 networks:
   default:
