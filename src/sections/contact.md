@@ -8,7 +8,7 @@ order: 5
 
 ## Contact
 
-<form action="https://getform.io/f/7c481e53-5ff3-41a0-ad12-2f25803c92d6" method="POST" onsubmit="myFunction()" target="_blank">
+<form action="https://getform.io/f/7c481e53-5ff3-41a0-ad12-2f25803c92d6" method="POST" target="_blank">
   <div class="input-container">
     <div class="styled-input wide">
       <input id="name" name="name" type="text" required />
