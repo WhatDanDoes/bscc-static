@@ -1,0 +1,12 @@
+---
+permalink: /robots.txt
+eleventyExcludeFromCollections: true
+---
+Sitemap: https://{{ project.url }}/sitemap.xml
+
+User-agent: *
+{% if project.environment === "development" %}
+Disallow: /
+{% else %}
+Disallow:
+{% endif %}
