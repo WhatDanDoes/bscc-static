@@ -17,8 +17,7 @@ html, body {
 
 footer, header, main {
   margin: 0 auto;
-  max-width: var(--width-content);
-  padding: 3rem 1rem;
+  max-width: 100%;
 }
 
 header section h1 {
