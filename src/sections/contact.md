@@ -8,18 +8,18 @@ order: 5
 
 ## Contact
 
-<form action="https://getform.io/f/7c481e53-5ff3-41a0-ad12-2f25803c92d6" method="POST">
+<form method="POST" accept-charset="UTF-8" id="contact-form">
   <div class="input-container">
     <div class="styled-input wide">
       <input id="name" name="name" type="text" required />
       <label>Name</label>
     </div>
     <div class="styled-input wide">
-      <input name="email" id="email" type="text" required />
+      <input name="email" id="email" type="email" required />
       <label>Email</label>
     </div>
     <div class="styled-input wide">
-      <textarea name="messsage" id="messageArea" required></textarea>
+      <textarea name="message" id="message-area" required></textarea>
       <label>Message</label>
     </div>
     <button class="submit-btn" type="submit">Send</button>
