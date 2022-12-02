@@ -8,5 +8,7 @@ User-agent: *
 {% if project.environment === "development" %}
 Disallow: /
 {% else %}
-Disallow:
+Disallow: /whitepaper
+Disallow: /bsf
+Disallow: /bible
 {% endif %}
