@@ -26,6 +26,8 @@ For a hypothetical year-long study with 60 participants:
 - Wearable hardware costs: 60 x $780 (retail) = $46,800
 - _Unlimited_ cellular data plans (corporate rate quoted by Wow! Mobile 2022-11-24): 60 x 35 x 12 = $25,200
 - Estimated supporting server hardware and software = $15,000
+- Estimated facility rental, leasing = $6,000
+- Estimated high-speed network access = $7,000
 
-Approximate total cost for one year of data collection: **$87,000**
+Approximate total cost for one year of data collection: **$100,000**
 

@@ -32,11 +32,6 @@
     </url>
   
     <url>
-      <loc>/bsf/reports/garmin-health-for-researchers/</loc>
-      <lastmod>2022-11-28T18:18:36.434Z</lastmod>
-    </url>
-  
-    <url>
       <loc>/</loc>
       <lastmod>2022-11-30T18:02:03.262Z</lastmod>
     </url>
@@ -49,6 +44,11 @@
     <url>
       <loc>.</loc>
       <lastmod>2022-12-02T18:37:47.555Z</lastmod>
+    </url>
+  
+    <url>
+      <loc>/bsf/reports/garmin-health-for-researchers/</loc>
+      <lastmod>2022-12-06T15:55:35.754Z</lastmod>
     </url>
   
 </urlset>
