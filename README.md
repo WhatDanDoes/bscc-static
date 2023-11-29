@@ -56,7 +56,7 @@ cd ../nginx-proxy
 
 You need to configure four GitHub _secrets_ to set up push deployment:
 
-- `SSH_HOST` - the server URL to which this site is deployed
-- `SSH_USER` - the username by which to authenticate against the server
-- `PUBLIC_DIR` - the server directory into which the static files will be transfered
+- `SSH_HOST` - the server URL to which this site is deployed (e.g `bscc.dev`)
+- `SSH_USER` - the username by which to authenticate against the server (e.g., `app`)
+- `PUBLIC_DIR` - the server directory into which the static files will be transfered (e.g `/home/app/sites/bscc-static`)
 - `SSH_PRIVATE_KEY` - obtained thusly: https://zellwk.com/blog/github-actions-deploy/
