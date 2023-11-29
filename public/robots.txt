@@ -1,6 +1,8 @@
-Sitemap: https://dev.bscc.dev/sitemap.xml
+Sitemap: https://bscc.dev/sitemap.xml
 
 User-agent: *
 
-Disallow: /
+Disallow: /whitepaper
+Disallow: /bsf
+Disallow: /bible
 
