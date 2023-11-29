@@ -49,13 +49,11 @@
         var qr = qrcode(typeNumber, errorCorrectionLevel);
         qr.addData(`${window.location.origin}${window.location.pathname}`);
         qr.make();
-        const svgQr  = qr.createImgTag();
+        const svgQr  = qr.createImgTag('5');
 
         const p = document.createElement('p');
         p.innerHTML = svgQr;
         headerDetails.append(p);
-
-
       });
     </script>
   </body>
