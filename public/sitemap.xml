@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>/whitepaper/</loc>
-      <lastmod>2022-05-25T13:57:06.240Z</lastmod>
-    </url>
-  
-    <url>
       <loc>/whitepaper/fairshare/</loc>
       <lastmod>2022-05-27T18:11:43.077Z</lastmod>
     </url>
@@ -49,6 +44,16 @@
     <url>
       <loc>/bsf/reports/garmin-health-for-researchers/</loc>
       <lastmod>2022-12-06T15:55:35.754Z</lastmod>
+    </url>
+  
+    <url>
+      <loc>/whitepaper/</loc>
+      <lastmod>2023-11-29T19:19:41.848Z</lastmod>
+    </url>
+  
+    <url>
+      <loc>/resume/</loc>
+      <lastmod>2023-11-29T20:50:10.150Z</lastmod>
     </url>
   
 </urlset>

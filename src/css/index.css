@@ -23,3 +23,32 @@ footer, header, main {
 header section h1 {
   font-family: 'Odibee Sans', cursive;
 }
+
+/* Mobile */
+main {
+  width: 90%;
+}
+
+/* Tablet */
+/* Desktop */
+@media (min-width:600px) {
+  main {
+    width: 50%;
+  }
+}
+
+/**
+ * QR details
+ */
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details p {
+  margin: auto;
+  width: 75%;
+}
+

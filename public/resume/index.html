@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Bidulock - Resume - BSCC</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+    <link rel="stylesheet" href="/css/index.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>
+          <a href="/">BSCC</a>
+        </h1>
+      </nav>
+      <details>
+        <summary>
+          <h1>Daniel Bidulock - Resume</h1>
+        </summary>
+      </details>
+    </header>
+    <main>
+      <article>
+        <h3>I am an entrepreneur who builds products for the web.</h3>
+<p>Calgary, Alberta</p>
+<p>daniel@bscc.dev</p>
+<p><a href="https://www.linkedin.com/in/danielbidulock/">LinkedIn</a></p>
+<h1>Senior Full Stack Web Developer</h1>
+<ul>
+<li>Disciplined test-driven developer who delivers production-grade software.</li>
+<li>Knowledge of contemporary development/build tools and best practices.</li>
+<li>Full-stack + devops. Automated push cycle, 3rd-party authentication, and production deployment integration.</li>
+<li>Lead mentor and coach to junior and intermediate developers.</li>
+</ul>
+<h1>Technology Summary</h1>
+<p><strong>These are the technologies I use day-to-day:</strong></p>
+<ul>
+<li>Node, Javascript, MongoDB, Express, React, Jest, Jasmine, Cypress, Puppeteer, GitHub Actions</li>
+</ul>
+<p><strong>Occasional related and past technologies:</strong></p>
+<ul>
+<li>Ruby, Rails, Python, R, Solidity, Hardhat, Java, PHP, PostgreSQL, Redis, AngularJS, C#, .NET, Common Lisp</li>
+</ul>
+<h1>Third-Party Platform Integrations</h1>
+<p><strong>OAuth2 authentication/authorization:</strong></p>
+<ul>
+<li>Okta/Auth0</li>
+</ul>
+<p><strong>Payment Processing:</strong></p>
+<ul>
+<li>Authorize.Net</li>
+</ul>
+<h1>Professional Experience</h1>
+<h3>Bidulock Smart Contract Corporation</h3>
+<p><strong>President and Founder</strong> May 2023</p>
+<p>Product development and private contracting. My product line focuses on document management and permaweb digital archiving:</p>
+<p>Permanent storage of digitized family albums:</p>
+<ul>
+<li><a href="https://heirloom.photos">https://heirloom.photos</a></li>
+</ul>
+<p>Convenient encrypted photo storage to free up phone storage:</p>
+<ul>
+<li><a href="https://photofreezer.cool">https://photofreezer.cool</a></li>
+</ul>
+<p>These are full-featured platforms with no-account authentication, retail customer retention, and administrative management.</p>
+<h2>Prescience Labs</h2>
+<p><strong>Open Source Program Lead</strong> Feb. 2022 - Apr. 2023</p>
+<p>NGO language translation skunkworks operation. Some proofs of concept:</p>
+<ul>
+<li>Browser-crypto wallet integration (Metamask, Brave, Nami)</li>
+<li>Pseudonymous login authorization/authentication</li>
+<li>Facebook Flashlight AI book translations into French, German, and Russian</li>
+<li>Web-based audio collection and transcription</li>
+<li>Grant applications</li>
+</ul>
+<h2>SIL International</h2>
+<p><strong>Language Software Developer</strong> Oct 2019 - Feb 2022</p>
+<p>Centralized organizational identity management software:</p>
+<ul>
+<li>Third party OAuth2 integration</li>
+<li>Cypress, Jasmine tested. Full E2E behavioural and unit tests</li>
+<li>Open API for registered third party apps</li>
+</ul>
+<h2>Lighthouse Labs</h2>
+<p><strong>Lead Mentor</strong> May 2013 - Feb 2019</p>
+<p>Lighthouse Labs runs web developer bootcamps. I taught and mentored students in all aspects of web development. Lighthouse is very much on-trend in leveraging the contemporary popular technologies. During my tenure at Lighthouse, we witnessed the transition from Ruby/Rails to Node/Express. By the time I moved on, functional React was all the rage.</p>
+<h1>Education</h1>
+<h2>University of Calgary - <em>2012</em></h2>
+<p><strong>Master of Science, Computer Science</strong></p>
+<p>Artificial Intelligence, Multi-Agent Systems</p>
+<h2>Ambrose Seminary, Calgary AB - <em>2008</em></h2>
+<p><strong>Master of Divinity</strong></p>
+<h2>Academy of Broadcasting, Winnipeg MB - <em>2004</em></h2>
+<p><strong>Diploma, Radio and Television</strong></p>
+<h2>University of Calgary - <em>2003</em></h2>
+<p><strong>Bachelor of Science, Computer Science</strong></p>
+
+      </article>
+    </main>
+
+    <script type="text/javascript" src="/scripts/qrcode.js"></script>
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', async function(event) {
+        // Add album QR to main header
+        const headerDetails = document.querySelector(`header details`);
+        // 2023-11-8 Have no idea how to test this...
+        // An Arweave-written app has a path.
+        //const svgQr = await QRCode.toString(`${window.location.origin}${window.location.pathname}`, { type: 'svg' });
+
+        var typeNumber = 0;
+        var errorCorrectionLevel = 'H';
+        var qr = qrcode(typeNumber, errorCorrectionLevel);
+        qr.addData(`${window.location.origin}${window.location.pathname}`);
+        qr.make();
+        const svgQr  = qr.createImgTag();
+
+        const p = document.createElement('p');
+        p.innerHTML = svgQr;
+        headerDetails.append(p);
+
+
+      });
+    </script>
+  </body>
+</html>

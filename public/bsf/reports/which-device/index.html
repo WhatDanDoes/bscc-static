@@ -11,10 +11,14 @@
     <header>
       <nav>
         <h1>
-          <a href="/">BSCC</a> > <a href="/bsf">BSF</a>
+          <a href="/">BSCC</a>
         </h1>
       </nav>
-      <h1>Which Device?</h1>
+      <details>
+        <summary>
+          <h1>Which Device?</h1>
+        </summary>
+      </details>
     </header>
     <main>
       <article>
@@ -49,5 +53,29 @@
 
       </article>
     </main>
+
+    <script type="text/javascript" src="/scripts/qrcode.js"></script>
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', async function(event) {
+        // Add album QR to main header
+        const headerDetails = document.querySelector(`header details`);
+        // 2023-11-8 Have no idea how to test this...
+        // An Arweave-written app has a path.
+        //const svgQr = await QRCode.toString(`${window.location.origin}${window.location.pathname}`, { type: 'svg' });
+
+        var typeNumber = 0;
+        var errorCorrectionLevel = 'H';
+        var qr = qrcode(typeNumber, errorCorrectionLevel);
+        qr.addData(`${window.location.origin}${window.location.pathname}`);
+        qr.make();
+        const svgQr  = qr.createImgTag();
+
+        const p = document.createElement('p');
+        p.innerHTML = svgQr;
+        headerDetails.append(p);
+
+
+      });
+    </script>
   </body>
 </html>
